@@ -256,7 +256,7 @@ CREATE TABLE `renprefix_api_items` (
    `item_rarity`    int(4) NOT NULL DEFAULT '-1',
    `locale`         varchar(16) DEFAULT NULL,
    `timestamp`      int(10) NOT NULL,
-   `json`           longtext DEFAULT NULL
+   `json`           longtext DEFAULT NULL,
   PRIMARY KEY  (`item_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
